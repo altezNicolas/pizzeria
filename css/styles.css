@@ -7,10 +7,12 @@
 body{
     background-color: #E5E5E5;
 }
+header img{
+    height: 100px;
+}
 header{
-    box-sizing: border-box;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
     height: 120px;
     padding: 10px;
@@ -18,13 +20,14 @@ header{
 .menu{
     list-style: none;
     display: flex;
-    margin-left: 500px;
 }
 .menu li{
     margin: 10px;
     margin-top: 40px;
     color: white;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: lighter;
 }
 .secciones-pizzera{
     display: flex;
@@ -45,7 +48,6 @@ header{
     left: 3%;
     font-size: 30px;
     font-weight: bold;
-    
 }
 .textoDelivery span{
     color: white;
@@ -93,4 +95,8 @@ footer{
 }
 footer ul{
     list-style: none;
+}
+footer img {
+    width: 350px;
+    padding-right: 40px;
 }
